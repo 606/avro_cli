@@ -21,10 +21,6 @@ tasks:
     desc: Build the CLI binary
     cmds:
       - go build -ldflags "{{.LDFLAGS}}" -o bin/{{.BINARY}} {{.MAIN}}
-    sources:
-      - "**/*.go"
-    generates:
-      - bin/{{.BINARY}}
 
   test:
     desc: Run all tests with race detector
@@ -43,8 +39,9 @@ tasks:
 
   deploy:
     desc: Build and install to {{.DEPLOY_DIR}}
-    deps: [build]
     cmds:
+      - task: build
+      - rm -f {{.DEPLOY_DIR}}/{{.BINARY}}
       - cp bin/{{.BINARY}} {{.DEPLOY_DIR}}/{{.BINARY}}
 
   dev:
