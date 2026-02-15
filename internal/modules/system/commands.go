@@ -54,7 +54,7 @@ var updateCmd = domain.CommandDescriptor{
 	Name:        "update",
 	Description: "Check for CLI updates from GitHub releases",
 	Action: func(ctx domain.CommandContext) domain.Result[string] {
-		const url = "https://api.github.com/repos/avrocc/avro_cli/releases/latest"
+		const url = "https://api.github.com/repos/606/avro_cli/releases/latest"
 		headers := map[string]string{
 			"Accept": "application/vnd.github+json",
 		}
