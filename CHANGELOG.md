@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/606/avro_cli/compare/v0.1.1...v0.1.2) (2026-02-15)
+
+
+### Bug Fixes
+
+* run goreleaser in same workflow as release-please ([eef2956](https://github.com/606/avro_cli/commit/eef2956cf9cb8dcd87914b7360480142a574ab4a))
+
 ## [0.1.1](https://github.com/606/avro_cli/compare/v0.1.0...v0.1.1) (2026-02-15)
 
 
