@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/606/avro_cli/compare/v0.1.2...v0.1.3) (2026-02-15)
+
+
+### Bug Fixes
+
+* update GitHub repo URL and remove redundant release workflow ([7d9504d](https://github.com/606/avro_cli/commit/7d9504d03956bc0d023e18753750c8f051907477))
+
 ## [0.1.2](https://github.com/606/avro_cli/compare/v0.1.1...v0.1.2) (2026-02-15)
 
 
