@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/606/avro_cli/compare/v0.1.0...v0.1.1) (2026-02-15)
+
+
+### Bug Fixes
+
+* trigger release workflow on release published event ([d6f48e7](https://github.com/606/avro_cli/commit/d6f48e75e7493c9a5660a79ccceabc5c45840f31))
+
 ## 0.1.0 (2026-02-15)
 
 
